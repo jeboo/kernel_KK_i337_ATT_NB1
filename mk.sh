@@ -8,7 +8,7 @@ export PACKAGEDIR=$PARENT_DIR/Packages
 #Enable FIPS mode
 export USE_SEC_FIPS_MODE=true
 export ARCH=arm
-export CROSS_COMPILE=/home/none/android/toolchains/prebuilts-gcc-linux-x86-arm-arm-eabi-4.6/bin/arm-linux-androideabi-
+export CROSS_COMPILE=/home/none/android/toolchains/arm-eabi-4.7/bin/arm-eabi-
 
 echo "Remove old Package Files"
 rm -rf $PACKAGEDIR/*
